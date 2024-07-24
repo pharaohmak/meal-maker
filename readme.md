@@ -1,5 +1,13 @@
-# Meal Maker
+# Menu Management
 
-As a frequent diner, you love trying out new restaurants and experimenting with different foods. However, having to figure out what you want to order can be a time-consuming ordeal if the menu is big, and you want an easier way to be able to figure out what you are going to eat.
+A JavaScript application that allows users to add dishes to a menu, categorized by appetizers, mains, and desserts. The menu is then displayed dynamically on the web page.
 
-In this project, you’ll use JavaScript to randomly create a three-course meal based on what is available on a menu. We’ll keep running it until we’re satisfied with the generated meal!
+## Introduction
+
+The Menu Management project allows users to manage a menu by adding dishes to different courses (appetizers, mains, desserts). The menu is dynamically updated and displayed on the web page.
+
+## Features
+
+- Add dishes to different courses (appetizers, mains, desserts).
+- Display the menu with all the added dishes and their prices.
+- Dynamic updating of the menu display.

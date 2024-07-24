@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Maker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Restaurant Menu</h1>
+        
+        <div class="section">
+            <label for="course">Course:</label>
+            <select id="course">
+                <option value="appetizers">Appetizers</option>
+                <option value="mains">Mains</option>
+                <option value="desserts">Desserts</option>
+            </select>
+            
+            <label for="dish">Dish Name:</label>
+            <input type="text" id="dish">
+            
+            <label for="price">Dish Price:</label>
+            <input type="number" id="price">
+            
+            <button id="addDish">Add Dish</button>
+        </div>
+        
+        <div class="section">
+            <h2>Menu</h2>
+            <ul id="menuList"></ul>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
